@@ -1,0 +1,196 @@
+@import url("reset.css");
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 625%; }
+
+body {
+  font-size: 16px; }
+
+a {
+  color: #000; }
+
+html, body, .container {
+  width: 100%; }
+
+.header {
+  width: 100%;
+  height: 52px;
+  background: #e41b47;
+  position: relative; }
+  .header .up {
+    position: absolute;
+    top: 14px;
+    left: 20px;
+    color: #fff;
+    display: none; }
+  .header a:nth-of-type(1) {
+    width: 24px;
+    height: 18px;
+    background: url("../images/a_03.gif") no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 14px;
+    left: 22px; }
+  .header a:nth-of-type(2) {
+    width: 23px;
+    height: 20px;
+    background: url("../images/a_05.gif") no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 14px;
+    right: 22px; }
+  .header h1 {
+    text-align: center;
+    font-size: 24px;
+    line-height: 52px;
+    color: #fff; }
+    .header h1 span {
+      font-size: 20px;
+      margin-left: 10px; }
+      .header h1 span img {
+        width: 13px;
+        height: 11px;
+        margin-left: 5px; }
+
+.section {
+  width: 100%;
+  height: auto;
+  position: relative; }
+  .section .banner {
+    display: -webkit-flex;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    position: relative; }
+    .section .banner img {
+      width: 100%;
+      height: 100%;
+      -webkit-transition: transform .5s; }
+    .section .banner ol {
+      position: absolute;
+      bottom: 10px;
+      left: 110px; }
+      .section .banner ol li {
+        float: left;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background: #fff;
+        margin-left: 20px; }
+        .section .banner ol li.bg {
+          background: blue; }
+
+.nav {
+  width: 100%;
+  height: 70px; }
+  .nav a {
+    margin-left: 8px;
+    line-height: 70px;
+    font-size: 14px;
+    color: #2f2f2f; }
+
+.like {
+  width: 100%;
+  height: 62px;
+  background: #f3f3f3; }
+  .like h2 {
+    line-height: 62px;
+    margin-left: 20px;
+    color: #666666; }
+
+.nav_a {
+  overflow-x: scroll;
+  width: 100%;
+  margin-top: 20px;
+  display: -webkit-flex;
+  padding: 0.04rem; }
+  .nav_a dl {
+    padding-left: 5px; }
+    .nav_a dl dt {
+      width: 106px;
+      height: 145px; }
+    .nav_a dl dd {
+      font-size: 12px; }
+  .nav_a img {
+    width: 106px;
+    height: 145px; }
+
+.like_a {
+  width: 100%;
+  height: 62px;
+  background: #f3f3f3;
+  position: relative; }
+  .like_a h2 {
+    line-height: 62px;
+    margin-left: 20px;
+    color: #666666; }
+  .like_a span {
+    position: absolute;
+    right: 10px; }
+    .like_a span a {
+      color: #666666; }
+
+.tu {
+  width: 100%;
+  height: auto;
+  margin-top: 10px; }
+  .tu ul li {
+    float: left;
+    margin: 4px; }
+  .tu img {
+    width: 150px;
+    height: 217px; }
+
+.mark {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  -webkit-transition: transform 0.3s;
+  top: 0; }
+  .mark .left {
+    width: 70%;
+    height: 100%;
+    background: #fff; }
+    .mark .left p {
+      display: -webkit-flex;
+      width: 100%;
+      height: 60px;
+      border-bottom: 1px solid #ccc;
+      padding-left: 50px;
+      line-height: 60px;
+      font-size: 20px;
+      position: relative; }
+      .mark .left p a {
+        width: 30px;
+        height: 31px;
+        background: url("../images/bg_03.gif") no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 13px;
+        left: 10px; }
+      .mark .left p:nth-of-type(2) a {
+        background: url("../images/bg_10.gif") no-repeat;
+        background-size: cover; }
+      .mark .left p:nth-of-type(3) a {
+        background: url("../images/bg_12.gif") no-repeat;
+        background-size: cover; }
+      .mark .left p:nth-of-type(4) a {
+        background: url("../images/bg_14.gif") no-repeat;
+        background-size: cover; }
+      .mark .left p:nth-of-type(5) a {
+        background: url("../images/bg_16.gif") no-repeat;
+        background-size: cover; }
+      .mark .left p span {
+        width: 15px;
+        height: 20px;
+        background: url("../images/bg_06.gif") no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 20px;
+        right: 15px; }
+
+/*# sourceMappingURL=damai.css.map */
